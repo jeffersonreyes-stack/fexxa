@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1B365D;
+  --color-accent: #C5A059;
+  --color-neutral: #F3F4F6;
+
+  --font-serif: var(--font-playfair), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+body {
+  background: white;
+  color: #1B365D; /* Default to primary for text, or black? Brief said "Tech Blue" is "Legado hidráulico y confianza". Body font usually better dark gray. */
+}
+
+/* Override body color to dark gray for readability as per standard web practice, using Primary for headings/emphasis */
+body {
+  color: #374151; /* gray-700 */
+}
