@@ -4,12 +4,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
-import { cn } from "@/lib/utils"; // I need to create utils if I use cn, or just import clsx directly. Plan said I installed clsx tailwind-merge.
-
-// I'll create a local utility for now or assume lib/utils exists (Next.js default sometimes creates it, or I create it).
-// Let's create lib/utils.ts first in next turn.
-// For now I will write Navbar and assume I'll create utils next.
-
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "Remodelaciones", href: "/remodelaciones" },
@@ -61,9 +55,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className={`text-sm font-medium hover:text-[#C5A059] transition-colors ${
-                isScrolled ? "text-gray-700" : "text-white/90"
-              }`}
+              className="text-2xl font-medium text-[#C5A059] hover:text-[#b08d4b] transition-colors"
             >
               {link.name}
             </Link>

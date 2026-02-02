@@ -18,3 +18,9 @@
  GET / 200 in 3.0s (compile: 896ms, render: 2.1s)
  GET / 200 in 240ms (compile: 21ms, render: 219ms)
  GET / 200 in 155ms (compile: 8ms, render: 147ms)
+✓ Compiled in 82ms
+ GET / 200 in 1933ms (compile: 719ms, render: 1215ms)
+○ Compiling /remodelaciones ...
+ GET /remodelaciones 200 in 5.7s (compile: 5.5s, render: 189ms)
+ GET / 200 in 226ms (compile: 9ms, render: 217ms)
+ GET /remodelaciones 200 in 202ms (compile: 5ms, render: 197ms)

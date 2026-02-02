@@ -25,7 +25,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white px-6">
         {/* Increased text size by ~1.8x and updated content */}
-        <h1 className="text-6xl md:text-[6.75rem] font-serif font-bold max-w-7xl leading-[1.1] mb-8 animate-fade-in-up">
+        <h1 className="text-4xl md:text-6xl font-serif font-bold max-w-7xl leading-[1.1] mb-8 animate-fade-in-up">
           Diseñamos, remodelamos y construimos espacios que inspiran y transforman vidas
         </h1>
         <p className="text-lg md:text-xl font-light max-w-2xl mb-10 text-gray-100 drop-shadow-md">
