@@ -19,15 +19,16 @@ export default function Hero() {
         <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2666&auto=format&fit=crop')] bg-cover bg-center" />
       </div>
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+      {/* Overlay - Reduced opacity to 20% per request */}
+      <div className="absolute inset-0 bg-black/20" />
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white px-6">
-        <h1 className="text-4xl md:text-6xl font-serif font-bold max-w-4xl leading-tight mb-6 animate-fade-in-up">
-          Diseñamos y remodelamos espacios que inspiran y transforman vidas
+        {/* Increased text size by ~1.8x and updated content */}
+        <h1 className="text-6xl md:text-[6.75rem] font-serif font-bold max-w-7xl leading-[1.1] mb-8 animate-fade-in-up">
+          Diseñamos, remodelamos y construimos espacios que inspiran y transforman vidas
         </h1>
-        <p className="text-lg md:text-xl font-light max-w-2xl mb-10 text-gray-200">
+        <p className="text-lg md:text-xl font-light max-w-2xl mb-10 text-gray-100 drop-shadow-md">
           Experiencia, ingeniería de precisión y diseño de autor al servicio de tus proyectos.
         </p>
 
@@ -40,7 +41,7 @@ export default function Hero() {
           </Link>
           <Link
             href="/ingenieria"
-            className="px-8 py-3 bg-transparent border border-white text-white font-medium rounded hover:bg-white hover:text-[#1B365D] transition duration-300"
+            className="px-8 py-3 bg-transparent border border-white text-white font-medium rounded hover:bg-white hover:text-[#1B365D] transition duration-300 backdrop-blur-sm"
           >
             Servicios de Ingeniería
           </Link>
