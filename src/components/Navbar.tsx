@@ -45,7 +45,7 @@ export default function Navbar() {
           href="/"
           className="flex items-center gap-3"
         >
-          <div className="relative w-10 h-10 md:w-12 md:h-12">
+          <div className="relative w-[140px] h-[140px] md:w-[168px] md:h-[168px]">
             <Image
               src="/logo-fexxa.png"
               alt="Fexxa Logo"
