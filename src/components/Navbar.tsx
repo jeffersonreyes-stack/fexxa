@@ -45,7 +45,7 @@ export default function Navbar() {
           href="/"
           className="flex items-center gap-3"
         >
-          <div className="relative w-[140px] h-[140px] md:w-[168px] md:h-[168px]">
+          <div className="relative w-[98px] h-[98px] md:w-[118px] md:h-[118px]">
             <Image
               src="/logo-fexxa.png"
               alt="Fexxa Logo"
@@ -53,11 +53,6 @@ export default function Navbar() {
               className="object-contain"
             />
           </div>
-          <span className={`text-xl md:text-2xl font-serif font-bold tracking-wide transition-colors ${
-            isScrolled ? "text-[#1B365D]" : "text-white"
-          }`}>
-            FEXXA SAS
-          </span>
         </Link>
 
         {/* Desktop Menu */}

@@ -9,7 +9,7 @@ export default function Footer() {
 
         {/* Brand */}
         <div className="col-span-1 md:col-span-1">
-          <div className="relative w-[140px] h-[140px] md:w-[168px] md:h-[168px] mb-4">
+          <div className="relative w-[98px] h-[98px] md:w-[118px] md:h-[118px] mb-4">
              <Image
               src="/logo-fexxa.png"
               alt="Fexxa Logo"
@@ -17,7 +17,6 @@ export default function Footer() {
               className="object-contain"
             />
           </div>
-          <h2 className="text-2xl font-serif font-bold mb-4">FEXXA</h2>
           <p className="text-gray-300 text-sm leading-relaxed">
             Diseñamos y remodelamos espacios que inspiran y transforman vidas.
             Ingeniería de precisión y mobiliario de autor.
