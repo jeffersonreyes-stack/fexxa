@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils"; // I need to create utils if I use cn, or just import clsx directly. Plan said I installed clsx tailwind-merge.
 
@@ -42,11 +43,21 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           href="/"
-          className={`text-2xl font-serif font-bold tracking-wide transition-colors ${
-            isScrolled ? "text-[#1B365D]" : "text-white"
-          }`}
+          className="flex items-center gap-3"
         >
-          FEXXA
+          <div className="relative w-10 h-10 md:w-12 md:h-12">
+            <Image
+              src="/logo-fexxa.png"
+              alt="Fexxa Logo"
+              fill
+              className="object-contain"
+            />
+          </div>
+          <span className={`text-xl md:text-2xl font-serif font-bold tracking-wide transition-colors ${
+            isScrolled ? "text-[#1B365D]" : "text-white"
+          }`}>
+            FEXXA SAS
+          </span>
         </Link>
 
         {/* Desktop Menu */}

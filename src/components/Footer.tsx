@@ -39,11 +39,11 @@ export default function Footer() {
             </div>
             <div className="flex items-center space-x-3">
               <Phone className="w-5 h-5 text-[#C5A059]" />
-              <span>+57 300 000 0000 (Líneas Comerciales)</span>
+              <span>+57 318 220 8936 (Líneas Comerciales)</span>
             </div>
             <div className="flex items-center space-x-3">
               <MapPin className="w-5 h-5 text-[#C5A059]" />
-              <span>Cali, Colombia</span>
+              <span>AV 6N # 14N - 31 oficina 502, Cali, Colombia</span>
             </div>
           </div>
 

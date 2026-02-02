@@ -28,7 +28,7 @@ export default function ContactoPage() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 font-medium uppercase">Teléfonos</p>
-                    <p className="text-gray-800 font-bold text-lg">+57 300 000 0000</p>
+                    <p className="text-gray-800 font-bold text-lg">+57 318 220 8936</p>
                     <p className="text-gray-600 text-sm">Línea Comercial y WhatsApp</p>
                   </div>
                 </div>
@@ -50,8 +50,8 @@ export default function ContactoPage() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 font-medium uppercase">Ubicación</p>
-                    <p className="text-gray-800 font-medium">Cali, Valle del Cauca</p>
-                    <p className="text-gray-600 text-sm">Colombia</p>
+                    <p className="text-gray-800 font-medium">AV 6N # 14N - 31 oficina 502</p>
+                    <p className="text-gray-600 text-sm">Cali, Colombia</p>
                   </div>
                 </div>
 
