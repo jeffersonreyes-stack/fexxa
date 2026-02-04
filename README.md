@@ -28,7 +28,7 @@ Para desplegar esta aplicación en Vercel:
 2. Ve a [Vercel](https://vercel.com/new)
 3. Importa este repositorio
 4. Vercel detectará automáticamente Next.js y lo desplegará
-5. Recibirás un link de producción como: `https://tu-proyecto.vercel.app`
+5. Recibirás un enlace de producción como: `https://tu-proyecto.vercel.app`
 
 ---
 
