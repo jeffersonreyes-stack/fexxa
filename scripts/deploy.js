@@ -15,20 +15,21 @@ if (!BUCKET_NAME || !DISTRIBUTION_ID) {
   process.exit(1);
 }
 
-const s3Client = new S3Client({
-    region: REGION,
-    credentials: {
+const hasExplicitCredentials =
+  !!process.env.AWS_ACCESS_KEY_ID && !!process.env.AWS_SECRET_ACCESS_KEY;
+
+const awsClientConfig = hasExplicitCredentials
+  ? {
+      region: REGION,
+      credentials: {
         accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+      },
     }
-});
-const cloudFrontClient = new CloudFrontClient({
-    region: REGION,
-    credentials: {
-        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
-    }
-});
+  : { region: REGION };
+
+const s3Client = new S3Client(awsClientConfig);
+const cloudFrontClient = new CloudFrontClient(awsClientConfig);
 
 async function uploadFile(filePath, key) {
   const fileContent = fs.readFileSync(filePath);

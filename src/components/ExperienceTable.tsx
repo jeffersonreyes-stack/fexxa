@@ -8,8 +8,7 @@ export default function ExperienceTable() {
   const [searchTerm, setSearchTerm] = useState("");
 
   const filteredProjects = projects.filter((project) =>
-    project.client.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    project.object.toLowerCase().includes(searchTerm.toLowerCase())
+    project.client.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -20,7 +19,7 @@ export default function ExperienceTable() {
         <div className="relative w-full md:w-96">
           <input
             type="text"
-            placeholder="Buscar por cliente u objeto..."
+            placeholder="Buscar por cliente..."
             className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1B365D] focus:border-transparent text-sm"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
@@ -35,7 +34,6 @@ export default function ExperienceTable() {
           <thead>
             <tr className="bg-gray-100 text-gray-600 text-xs uppercase tracking-wider">
               <th className="p-4 font-semibold border-b">Cliente / Entidad</th>
-              <th className="p-4 font-semibold border-b">Objeto</th>
             </tr>
           </thead>
           <tbody className="text-sm divide-y divide-gray-200">
@@ -43,12 +41,11 @@ export default function ExperienceTable() {
               filteredProjects.map((project) => (
                 <tr key={project.id} className="hover:bg-gray-50 transition-colors">
                   <td className="p-4 font-bold text-[#1B365D] align-top">{project.client}</td>
-                  <td className="p-4 text-gray-700 align-top">{project.object}</td>
                 </tr>
               ))
             ) : (
               <tr>
-                <td colSpan={2} className="p-8 text-center text-gray-500">
+                <td colSpan={1} className="p-8 text-center text-gray-500">
                   No se encontraron resultados para "{searchTerm}"
                 </td>
               </tr>
