@@ -1,5 +1,6 @@
 import LogoCloud from "@/components/LogoCloud";
-import ClientLogosGrid from "@/components/ClientLogosGrid";
+import TrustCounters from "@/components/TrustCounters";
+import ExperienceTable from "@/components/ExperienceTable";
 
 export default function ExperienciaPage() {
   return (
@@ -13,13 +14,18 @@ export default function ExperienciaPage() {
         </p>
       </div>
 
+      {/* Trust Counter Section */}
+      <TrustCounters />
+
       {/* Logo Cloud Section */}
       <div className="mb-20">
         <LogoCloud />
       </div>
 
-      {/* Clients Grid Section */}
-      <ClientLogosGrid />
+      {/* Experience Table Section */}
+      <div className="container mx-auto px-6 mb-20">
+        <ExperienceTable />
+      </div>
     </div>
   );
 }

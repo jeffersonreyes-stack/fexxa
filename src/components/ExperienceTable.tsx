@@ -9,7 +9,6 @@ export default function ExperienceTable() {
 
   const filteredProjects = projects.filter((project) =>
     project.client.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    project.contract.toLowerCase().includes(searchTerm.toLowerCase()) ||
     project.object.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
@@ -17,11 +16,11 @@ export default function ExperienceTable() {
     <div className="bg-white rounded-lg shadow-lg overflow-hidden">
       {/* Filter Header */}
       <div className="p-6 border-b border-gray-200 bg-gray-50 flex flex-col md:flex-row justify-between items-center gap-4">
-        <h3 className="text-xl font-serif font-bold text-[#1B365D]">Historial de Contratación</h3>
+        <h3 className="text-xl font-serif font-bold text-[#1B365D]">Lista de Clientes</h3>
         <div className="relative w-full md:w-96">
           <input
             type="text"
-            placeholder="Buscar por cliente, contrato u objeto..."
+            placeholder="Buscar por cliente u objeto..."
             className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1B365D] focus:border-transparent text-sm"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
@@ -36,8 +35,7 @@ export default function ExperienceTable() {
           <thead>
             <tr className="bg-gray-100 text-gray-600 text-xs uppercase tracking-wider">
               <th className="p-4 font-semibold border-b">Cliente / Entidad</th>
-              <th className="p-4 font-semibold border-b w-48">Contrato No.</th>
-              <th className="p-4 font-semibold border-b">Objeto del Contrato</th>
+              <th className="p-4 font-semibold border-b">Objeto</th>
             </tr>
           </thead>
           <tbody className="text-sm divide-y divide-gray-200">
@@ -45,13 +43,12 @@ export default function ExperienceTable() {
               filteredProjects.map((project) => (
                 <tr key={project.id} className="hover:bg-gray-50 transition-colors">
                   <td className="p-4 font-bold text-[#1B365D] align-top">{project.client}</td>
-                  <td className="p-4 text-gray-600 whitespace-nowrap align-top">{project.contract}</td>
                   <td className="p-4 text-gray-700 align-top">{project.object}</td>
                 </tr>
               ))
             ) : (
               <tr>
-                <td colSpan={3} className="p-8 text-center text-gray-500">
+                <td colSpan={2} className="p-8 text-center text-gray-500">
                   No se encontraron resultados para "{searchTerm}"
                 </td>
               </tr>
@@ -62,7 +59,7 @@ export default function ExperienceTable() {
 
       {/* Footer / Count */}
       <div className="p-4 bg-gray-50 border-t border-gray-200 text-xs text-gray-500 text-right">
-        Mostrando {filteredProjects.length} contratos
+        Mostrando {filteredProjects.length} clientes
       </div>
     </div>
   );
