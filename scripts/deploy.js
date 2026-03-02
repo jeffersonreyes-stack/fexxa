@@ -45,6 +45,19 @@ async function uploadFile(filePath, key) {
   try {
     await s3Client.send(command);
     console.log(`Uploaded: ${key} (${contentType})`);
+
+    if (key.endsWith(".html") && key !== "index.html" && key !== "404.html") {
+      const extensionlessKey = key.slice(0, -5);
+      const extensionlessCommand = new PutObjectCommand({
+        Bucket: BUCKET_NAME,
+        Key: extensionlessKey,
+        Body: fileContent,
+        ContentType: "text/html",
+      });
+
+      await s3Client.send(extensionlessCommand);
+      console.log(`Uploaded route alias: ${extensionlessKey} (text/html)`);
+    }
   } catch (err) {
     console.error(`Error uploading ${key}:`, err);
     throw err;
