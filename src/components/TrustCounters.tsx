@@ -18,7 +18,7 @@ export default function TrustCounters() {
               {isInView ? (
                 <CountUp
                   start={0}
-                  end={18}
+                  end={20}
                   duration={2.5}
                   prefix="+"
                 />
@@ -37,7 +37,7 @@ export default function TrustCounters() {
               Experiencia y Confianza
             </h3>
             <p className="text-gray-700 leading-relaxed text-lg font-light">
-              Nuestra trayectoria de más de 18 años es el pilar de nuestra solidez. Construimos relaciones duraderas basadas en la honestidad y el cumplimiento, transformando no solo espacios, sino la confianza que nuestros clientes depositan en nosotros. Cada obra es un compromiso de calidad garantizada.
+              Nuestra trayectoria de más de 20 años es el pilar de nuestra solidez. Construimos relaciones duraderas basadas en la honestidad y el cumplimiento, transformando no solo espacios, sino la confianza que nuestros clientes depositan en nosotros. Cada obra es un compromiso de calidad garantizada.
             </p>
           </div>
         </div>
