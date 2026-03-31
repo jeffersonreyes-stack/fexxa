@@ -11,42 +11,42 @@ const furniture = [
     id: 1,
     title: "Cama Flotante King",
     category: "Camas",
-    image: "https://images.unsplash.com/photo-1505693416388-b0346ef41439?q=80&w=2674&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.46%20PM%20(2).jpeg",
     description: "Diseño estructural oculto con iluminación LED inferior y cabecera tapizada."
   },
   {
     id: 2,
     title: "Walk-in Closet Modular",
     category: "Clósets",
-    image: "https://images.unsplash.com/photo-1551516594-56cb78394645?q=80&w=2530&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.47%20PM%20(2).jpeg",
     description: "Sistema de almacenamiento inteligente con herrajes de cierre lento."
   },
   {
     id: 3,
     title: "Biblioteca Geométrica",
     category: "Estanterías",
-    image: "https://images.unsplash.com/photo-1594056908332-94fa9158c3bb?q=80&w=2670&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.47%20PM%20(3).jpeg",
     description: "Estantería de acero y madera con diseño asimétrico de alta carga."
   },
   {
     id: 4,
     title: "Mesa de Juntas Ejecutiva",
     category: "Mesas",
-    image: "https://images.unsplash.com/photo-1505409627970-66b520069482?q=80&w=2574&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.46%20PM%20(3).jpeg",
     description: "Superficie en vidrio templado con bases de concreto pulido."
   },
   {
     id: 5,
     title: "Closet Empotrado Minimalista",
     category: "Clósets",
-    image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?q=80&w=2670&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.46%20PM%20(1).jpeg",
     description: "Puertas corredizas de piso a techo con sistema de rieles silenciosos."
   },
   {
     id: 6,
     title: "Cama Multifuncional",
     category: "Camas",
-    image: "https://images.unsplash.com/photo-1505693314120-0d443867891c?q=80&w=2691&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.48%20PM%20(1).jpeg",
     description: "Incluye almacenamiento inferior y mesas de noche integradas."
   },
 ];
