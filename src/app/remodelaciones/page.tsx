@@ -12,42 +12,42 @@ const projects = [
     id: 1,
     title: "Cocina Integral Moderna",
     category: "Cocinas",
-    image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=2668&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.46%20PM.jpeg",
     description: "Diseño ergonómico con acabados en poliuretano y mesones de cuarzo."
   },
   {
     id: 2,
     title: "Baño Tipo Spa",
     category: "Baños",
-    image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=2574&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.47%20PM.jpeg",
     description: "Remodelación completa con grifería de lujo y revestimientos importados."
   },
   {
     id: 3,
     title: "Oficina Corporativa",
     category: "Oficina",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.48%20PM.jpeg",
     description: "Optimización de espacios de trabajo con mobiliario modular de alta resistencia."
   },
   {
     id: 4,
     title: "Sala de Estar Contemporánea",
     category: "Salas",
-    image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?q=80&w=2670&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.47%20PM%20(1).jpeg",
     description: "Ambientes cálidos con iluminación led integrada y texturas naturales."
   },
   {
     id: 5,
     title: "Aula Interactiva",
     category: "Escolar",
-    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2604&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.46%20PM%20(3).jpeg",
     description: "Mobiliario escolar resistente y colorido diseñado para el aprendizaje activo."
   },
   {
     id: 6,
     title: "Cocina Minimalista",
     category: "Cocinas",
-    image: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?q=80&w=2574&auto=format&fit=crop",
+    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.46%20PM%20(2).jpeg",
     description: "Líneas limpias y almacenamiento inteligente para espacios compactos."
   },
 ];
