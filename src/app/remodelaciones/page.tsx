@@ -4,53 +4,9 @@ import { useState } from "react";
 import ProductFilter from "@/components/ProductFilter";
 import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 import ProductCard from "@/components/ProductCard";
+import { projects } from "@/data/products";
 
 const categories = ["Todos", "Cocinas", "Baños", "Salas", "Oficina", "Escolar"];
-
-const projects = [
-  {
-    id: 1,
-    title: "Cocina Integral Moderna",
-    category: "Cocinas",
-    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.46%20PM.jpeg",
-    description: "Diseño ergonómico con acabados en poliuretano y mesones de cuarzo."
-  },
-  {
-    id: 2,
-    title: "Baño Tipo Spa",
-    category: "Baños",
-    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.47%20PM.jpeg",
-    description: "Remodelación completa con grifería de lujo y revestimientos importados."
-  },
-  {
-    id: 3,
-    title: "Oficina Corporativa",
-    category: "Oficina",
-    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.48%20PM.jpeg",
-    description: "Optimización de espacios de trabajo con mobiliario modular de alta resistencia."
-  },
-  {
-    id: 4,
-    title: "Sala de Estar Contemporánea",
-    category: "Salas",
-    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.47%20PM%20(1).jpeg",
-    description: "Ambientes cálidos con iluminación led integrada y texturas naturales."
-  },
-  {
-    id: 5,
-    title: "Aula Interactiva",
-    category: "Escolar",
-    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.46%20PM%20(3).jpeg",
-    description: "Mobiliario escolar resistente y colorido diseñado para el aprendizaje activo."
-  },
-  {
-    id: 6,
-    title: "Cocina Minimalista",
-    category: "Cocinas",
-    image: "https://fexxa-web-3882.s3.us-east-1.amazonaws.com/imagenes%20productos%20y%20servicios/fexxa/WhatsApp%20Image%202026-03-30%20at%208.35.46%20PM%20(2).jpeg",
-    description: "Líneas limpias y almacenamiento inteligente para espacios compactos."
-  },
-];
 
 export default function RemodelacionesPage() {
   const [activeCategory, setActiveCategory] = useState("Todos");
@@ -94,6 +50,7 @@ export default function RemodelacionesPage() {
                <ProductCard
                  key={project.id}
                  {...project}
+                 linkPrefix="remodelaciones"
                />
              ))}
            </div>

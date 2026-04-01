@@ -1,298 +1,149 @@
-npm warn exec The following package was not found and will be installed: serve@14.2.5
  INFO  Accepting connections at http://localhost:3000
- HTTP  1/30/2026 10:50:05 PM ::1 GET /
- HTTP  1/30/2026 10:50:05 PM ::1 Returned 200 in 474 ms
- HTTP  1/30/2026 10:50:05 PM ::1 GET /_next/static/media/2a65768255d6b625-s.p.d19752fb.woff2
- HTTP  1/30/2026 10:50:05 PM ::1 GET /_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2
- HTTP  1/30/2026 10:50:05 PM ::1 GET /_next/static/chunks/6f4df4350148af3d.css
- HTTP  1/30/2026 10:50:05 PM ::1 Returned 200 in 19 ms
- HTTP  1/30/2026 10:50:05 PM ::1 Returned 200 in 21 ms
- HTTP  1/30/2026 10:50:05 PM ::1 Returned 200 in 21 ms
- HTTP  1/30/2026 10:50:06 PM ::1 GET /_next/static/chunks/b9a0fabf54a78ef2.js
- HTTP  1/30/2026 10:50:06 PM ::1 GET /_next/static/chunks/806bdb8e4a6a9b95.js
- HTTP  1/30/2026 10:50:06 PM ::1 GET /_next/static/chunks/2378da1e627371ff.js
- HTTP  1/30/2026 10:50:06 PM ::1 GET /_next/static/chunks/f2f58a7e93290fbb.js
- HTTP  1/30/2026 10:50:06 PM ::1 GET /_next/static/chunks/turbopack-7d7caa6d86e168df.js
- HTTP  1/30/2026 10:50:06 PM ::1 GET /_next/static/chunks/d9ac7985efa4f18d.js
- HTTP  1/30/2026 10:50:06 PM ::1 Returned 200 in 33 ms
- HTTP  1/30/2026 10:50:06 PM ::1 Returned 200 in 38 ms
- HTTP  1/30/2026 10:50:06 PM ::1 Returned 200 in 30 ms
- HTTP  1/30/2026 10:50:06 PM ::1 Returned 200 in 42 ms
- HTTP  1/30/2026 10:50:06 PM ::1 Returned 200 in 29 ms
- HTTP  1/30/2026 10:50:06 PM ::1 GET /_next/static/chunks/8a07e07106d6caa4.js
- HTTP  1/30/2026 10:50:06 PM ::1 Returned 200 in 53 ms
- HTTP  1/30/2026 10:50:06 PM ::1 GET /_next/static/chunks/a60eaa9af53a2514.js
- HTTP  1/30/2026 10:50:06 PM ::1 Returned 200 in 29 ms
- HTTP  1/30/2026 10:50:06 PM ::1 Returned 200 in 18 ms
- HTTP  1/30/2026 10:50:06 PM ::1 GET /_next/static/chunks/5c043c88d5f4e5e6.js
- HTTP  1/30/2026 10:50:06 PM ::1 Returned 200 in 9 ms
- HTTP  1/30/2026 10:50:07 PM ::1 HEAD /ingenieria
- HTTP  1/30/2026 10:50:07 PM ::1 HEAD /remodelaciones
- HTTP  1/30/2026 10:50:07 PM ::1 HEAD /contacto
- HTTP  1/30/2026 10:50:07 PM ::1 HEAD /experiencia
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 9 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 8 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 9 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 8 ms
- HTTP  1/30/2026 10:50:07 PM ::1 GET /ingenieria/__next._tree.txt?_rsc=1r34m
- HTTP  1/30/2026 10:50:07 PM ::1 GET /remodelaciones/__next._tree.txt?_rsc=1r34m
- HTTP  1/30/2026 10:50:07 PM ::1 GET /contacto/__next._tree.txt?_rsc=1r34m
- HTTP  1/30/2026 10:50:07 PM ::1 GET /experiencia/__next._tree.txt?_rsc=1r34m
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 9 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 7 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 7 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 7 ms
- HTTP  1/30/2026 10:50:07 PM ::1 HEAD /mobiliario
- HTTP  1/30/2026 10:50:07 PM ::1 HEAD /
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 4 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 304 in 6 ms
- HTTP  1/30/2026 10:50:07 PM ::1 GET /ingenieria/__next._head.txt?_rsc=1pn8p
- HTTP  1/30/2026 10:50:07 PM ::1 GET /ingenieria/__next._index.txt?_rsc=nn07o
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 7 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 7 ms
- HTTP  1/30/2026 10:50:07 PM ::1 GET /mobiliario/__next._tree.txt?_rsc=1r34m
- HTTP  1/30/2026 10:50:07 PM ::1 GET /__next._tree.txt?_rsc=1r34m
- HTTP  1/30/2026 10:50:07 PM ::1 GET /ingenieria/__next.ingenieria.txt?_rsc=p68d1
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 9 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 8 ms
- HTTP  1/30/2026 10:50:07 PM ::1 GET /ingenieria/__next.ingenieria.__PAGE__.txt?_rsc=8bwxr
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 12 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 11 ms
- HTTP  1/30/2026 10:50:07 PM ::1 GET /__next._head.txt?_rsc=1pn8p
- HTTP  1/30/2026 10:50:07 PM ::1 GET /__next.__PAGE__.txt?_rsc=ivliq
- HTTP  1/30/2026 10:50:07 PM ::1 GET /remodelaciones/__next._head.txt?_rsc=1pn8p
- HTTP  1/30/2026 10:50:07 PM ::1 GET /remodelaciones/__next.remodelaciones.txt?_rsc=1odqq
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 11 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 8 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 9 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 8 ms
- HTTP  1/30/2026 10:50:07 PM ::1 GET /remodelaciones/__next.remodelaciones.__PAGE__.txt?_rsc=1lhg2
- HTTP  1/30/2026 10:50:07 PM ::1 GET /contacto/__next._head.txt?_rsc=1pn8p
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 8 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 8 ms
- HTTP  1/30/2026 10:50:07 PM ::1 GET /contacto/__next.contacto.txt?_rsc=i95pq
- HTTP  1/30/2026 10:50:07 PM ::1 GET /contacto/__next.contacto.__PAGE__.txt?_rsc=uus2n
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 8 ms
- HTTP  1/30/2026 10:50:07 PM ::1 Returned 200 in 9 ms
- HTTP  1/30/2026 10:50:08 PM ::1 GET /_next/static/chunks/5787fb58ca276884.js
- HTTP  1/30/2026 10:50:08 PM ::1 GET /_next/static/chunks/a89a980072c4ba5a.js
- HTTP  1/30/2026 10:50:08 PM ::1 GET /experiencia/__next._head.txt?_rsc=1pn8p
- HTTP  1/30/2026 10:50:08 PM ::1 GET /experiencia/__next.experiencia.txt?_rsc=1tnn9
- HTTP  1/30/2026 10:50:08 PM ::1 GET /experiencia/__next.experiencia.__PAGE__.txt?_rsc=i263j
- HTTP  1/30/2026 10:50:08 PM ::1 GET /_next/static/chunks/43ec19495fcebac4.js
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 13 ms
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 13 ms
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 9 ms
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 8 ms
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 8 ms
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 9 ms
- HTTP  1/30/2026 10:50:08 PM ::1 GET /mobiliario/__next._head.txt?_rsc=1pn8p
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 4 ms
- HTTP  1/30/2026 10:50:08 PM ::1 GET /mobiliario/__next.mobiliario.txt?_rsc=1yxuu
- HTTP  1/30/2026 10:50:08 PM ::1 GET /mobiliario/__next.mobiliario.__PAGE__.txt?_rsc=1pegw
- HTTP  1/30/2026 10:50:08 PM ::1 GET /_next/static/chunks/5702f0e9e4f8ef7e.js
- HTTP  1/30/2026 10:50:08 PM ::1 GET /_next/static/chunks/1fa5b527e5a11864.js
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 11 ms
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 10 ms
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 9 ms
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 12 ms
- HTTP  1/30/2026 10:50:08 PM ::1 GET /_next/static/chunks/3c6cbbcb9d0b71fe.js
- HTTP  1/30/2026 10:50:08 PM ::1 Returned 200 in 6 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /experiencia
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/media/2a65768255d6b625-s.p.d19752fb.woff2
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/6f4df4350148af3d.css
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/b9a0fabf54a78ef2.js
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/806bdb8e4a6a9b95.js
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/2378da1e627371ff.js
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/f2f58a7e93290fbb.js
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/turbopack-7d7caa6d86e168df.js
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/d9ac7985efa4f18d.js
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 3 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/8a07e07106d6caa4.js
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/a60eaa9af53a2514.js
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/5702f0e9e4f8ef7e.js
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/1fa5b527e5a11864.js
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 HEAD /contacto
- HTTP  1/30/2026 10:50:09 PM ::1 HEAD /ingenieria
- HTTP  1/30/2026 10:50:09 PM ::1 HEAD /mobiliario
- HTTP  1/30/2026 10:50:09 PM ::1 HEAD /experiencia
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 3 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 3 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 4 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 3 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /experiencia/__next._tree.txt?_rsc=11fak
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /contacto/__next._tree.txt?_rsc=11fak
- HTTP  1/30/2026 10:50:09 PM ::1 GET /ingenieria/__next._tree.txt?_rsc=11fak
- HTTP  1/30/2026 10:50:09 PM ::1 GET /mobiliario/__next._tree.txt?_rsc=11fak
- HTTP  1/30/2026 10:50:09 PM ::1 HEAD /remodelaciones
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 3 ms
- HTTP  1/30/2026 10:50:09 PM ::1 HEAD /
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 0 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /contacto/__next._head.txt?_rsc=1l4r9
- HTTP  1/30/2026 10:50:09 PM ::1 GET /contacto/__next._index.txt?_rsc=19j2b
- HTTP  1/30/2026 10:50:09 PM ::1 GET /remodelaciones/__next._tree.txt?_rsc=11fak
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 3 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /__next._tree.txt?_rsc=11fak
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /contacto/__next.contacto.txt?_rsc=3k7yc
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /contacto/__next.contacto.__PAGE__.txt?_rsc=12r6v
- HTTP  1/30/2026 10:50:09 PM ::1 GET /experiencia/__next._head.txt?_rsc=1l4r9
- HTTP  1/30/2026 10:50:09 PM ::1 GET /experiencia/__next.experiencia.txt?_rsc=1r6nb
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 3 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 4 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /experiencia/__next.experiencia.__PAGE__.txt?_rsc=8k5r1
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /ingenieria/__next._head.txt?_rsc=1l4r9
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /ingenieria/__next.ingenieria.txt?_rsc=1flc1
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/43ec19495fcebac4.js
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /ingenieria/__next.ingenieria.__PAGE__.txt?_rsc=j4t62
- HTTP  1/30/2026 10:50:09 PM ::1 GET /mobiliario/__next._head.txt?_rsc=1l4r9
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /mobiliario/__next.mobiliario.txt?_rsc=qpn2f
- HTTP  1/30/2026 10:50:09 PM ::1 GET /mobiliario/__next.mobiliario.__PAGE__.txt?_rsc=16yqx
- HTTP  1/30/2026 10:50:09 PM ::1 GET /remodelaciones/__next._head.txt?_rsc=1l4r9
- HTTP  1/30/2026 10:50:09 PM ::1 GET /remodelaciones/__next.remodelaciones.txt?_rsc=mmivo
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /remodelaciones/__next.remodelaciones.__PAGE__.txt?_rsc=pc4ln
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/3c6cbbcb9d0b71fe.js
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /__next._head.txt?_rsc=1l4r9
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/a89a980072c4ba5a.js
- HTTP  1/30/2026 10:50:09 PM ::1 GET /__next.__PAGE__.txt?_rsc=1swpa
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/5787fb58ca276884.js
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 0 ms
- HTTP  1/30/2026 10:50:09 PM ::1 GET /_next/static/chunks/5c043c88d5f4e5e6.js
- HTTP  1/30/2026 10:50:09 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /contacto
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/6f4df4350148af3d.css
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/media/2a65768255d6b625-s.p.d19752fb.woff2
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/b9a0fabf54a78ef2.js
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/806bdb8e4a6a9b95.js
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/2378da1e627371ff.js
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/f2f58a7e93290fbb.js
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/turbopack-7d7caa6d86e168df.js
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/d9ac7985efa4f18d.js
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/8a07e07106d6caa4.js
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/a60eaa9af53a2514.js
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/43ec19495fcebac4.js
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 HEAD /contacto
- HTTP  1/30/2026 10:50:10 PM ::1 HEAD /ingenieria
- HTTP  1/30/2026 10:50:10 PM ::1 HEAD /experiencia
- HTTP  1/30/2026 10:50:10 PM ::1 HEAD /mobiliario
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /contacto/__next._tree.txt?_rsc=123o5
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /experiencia/__next._tree.txt?_rsc=123o5
- HTTP  1/30/2026 10:50:10 PM ::1 GET /ingenieria/__next._tree.txt?_rsc=123o5
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 HEAD /remodelaciones
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 HEAD /
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /remodelaciones/__next._tree.txt?_rsc=123o5
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 0 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /__next._tree.txt?_rsc=123o5
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /contacto/__next._head.txt?_rsc=v10xd
- HTTP  1/30/2026 10:50:10 PM ::1 GET /contacto/__next._index.txt?_rsc=1svu2
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /mobiliario/__next._tree.txt?_rsc=123o5
- HTTP  1/30/2026 10:50:10 PM ::1 GET /contacto/__next.contacto.txt?_rsc=1r53s
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 3 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /contacto/__next.contacto.__PAGE__.txt?_rsc=16rj0
- HTTP  1/30/2026 10:50:10 PM ::1 GET /experiencia/__next._head.txt?_rsc=v10xd
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 4 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /experiencia/__next.experiencia.txt?_rsc=2hh58
- HTTP  1/30/2026 10:50:10 PM ::1 GET /experiencia/__next.experiencia.__PAGE__.txt?_rsc=12iq6
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /ingenieria/__next._head.txt?_rsc=v10xd
- HTTP  1/30/2026 10:50:10 PM ::1 GET /ingenieria/__next.ingenieria.txt?_rsc=10moa
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/5702f0e9e4f8ef7e.js
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/1fa5b527e5a11864.js
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /ingenieria/__next.ingenieria.__PAGE__.txt?_rsc=grbed
- HTTP  1/30/2026 10:50:10 PM ::1 GET /mobiliario/__next._head.txt?_rsc=v10xd
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /mobiliario/__next.mobiliario.txt?_rsc=1d00f
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /mobiliario/__next.mobiliario.__PAGE__.txt?_rsc=n1ooz
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 3 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /remodelaciones/__next._head.txt?_rsc=v10xd
- HTTP  1/30/2026 10:50:10 PM ::1 GET /remodelaciones/__next.remodelaciones.txt?_rsc=p7d80
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /remodelaciones/__next.remodelaciones.__PAGE__.txt?_rsc=raq1s
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/3c6cbbcb9d0b71fe.js
- HTTP  1/30/2026 10:50:10 PM ::1 GET /__next._head.txt?_rsc=v10xd
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/a89a980072c4ba5a.js
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 2 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 3 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /__next.__PAGE__.txt?_rsc=kwflb
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 200 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/5787fb58ca276884.js
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 1 ms
- HTTP  1/30/2026 10:50:10 PM ::1 GET /_next/static/chunks/5c043c88d5f4e5e6.js
- HTTP  1/30/2026 10:50:10 PM ::1 Returned 304 in 1 ms
-
- INFO  Gracefully shutting down. Please wait...
+ HTTP  4/1/2026 4:38:13 AM ::1 GET /mobiliario
+ HTTP  4/1/2026 4:38:13 AM ::1 Returned 200 in 23 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/media/2a65768255d6b625-s.p.d19752fb.woff2
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/25dff7eb8f441b75.css
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /productos/camas/CAMAS%20(1).jpeg
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /productos/camas/CAMAS%20(11).jpeg
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /productos/camas/CAMAS%20(17).jpeg
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 18 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 18 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 17 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 18 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 19 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/536461ef04722dfc.js
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/806bdb8e4a6a9b95.js
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/aee6c7720838f8a2.js
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/2378da1e627371ff.js
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/turbopack-4038e935156e854c.js
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 15 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 6 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 8 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 8 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 6 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/71aa7e109a5a972a.js
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 13 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/8a07e07106d6caa4.js
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/a60eaa9af53a2514.js
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/54d7101e5faf33fa.js
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 11 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 5 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 4 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 7 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/084dce235e5401da.js
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /logo-fexxa.png
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 4 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 HEAD /producto/mobiliario/3
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 2 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 HEAD /producto/mobiliario/2
+ HTTP  4/1/2026 4:38:14 AM ::1 HEAD /producto/mobiliario/1
+ HTTP  4/1/2026 4:38:14 AM ::1 HEAD /contacto
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 5 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 6 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 6 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/3/__next._tree.txt?_rsc=2as6g
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/2/__next._tree.txt?_rsc=2as6g
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 2 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/1/__next._tree.txt?_rsc=2as6g
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /contacto/__next._tree.txt?_rsc=2as6g
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 2 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 1 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 HEAD /experiencia
+ HTTP  4/1/2026 4:38:14 AM ::1 HEAD /ingenieria
+ HTTP  4/1/2026 4:38:14 AM ::1 HEAD /mobiliario
+ HTTP  4/1/2026 4:38:14 AM ::1 HEAD /remodelaciones
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 304 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 5 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 5 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /mobiliario/__next._tree.txt?_rsc=2as6g
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /experiencia/__next._tree.txt?_rsc=2as6g
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /ingenieria/__next._tree.txt?_rsc=2as6g
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /remodelaciones/__next._tree.txt?_rsc=2as6g
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 HEAD /
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/3/__next._head.txt?_rsc=15n2j
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/3/__next._index.txt?_rsc=19le0
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/3/__next.producto.txt?_rsc=36dds
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 4 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 5 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 5 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 5 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /__next._tree.txt?_rsc=2as6g
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/3/__next.producto.$d$type.txt?_rsc=b2ehu
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 1 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/3/__next.producto.$d$type.$d$id.txt?_rsc=g6tou
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 1 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/424efc9cba16f2bd.js
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/3/__next.producto.$d$type.$d$id.__PAGE__.txt?_rsc=a5vdp
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 2 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 1 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/2/__next._head.txt?_rsc=15n2j
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/2/__next.producto.$d$type.$d$id.txt?_rsc=g6tou
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/2/__next.producto.$d$type.$d$id.__PAGE__.txt?_rsc=a5vdp
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/1/__next._head.txt?_rsc=15n2j
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/1/__next.producto.$d$type.$d$id.txt?_rsc=g6tou
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /producto/mobiliario/1/__next.producto.$d$type.$d$id.__PAGE__.txt?_rsc=a5vdp
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 1 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 2 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /contacto/__next._head.txt?_rsc=15n2j
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /contacto/__next.contacto.txt?_rsc=1tuhl
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /contacto/__next.contacto.__PAGE__.txt?_rsc=10s1o
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /experiencia/__next._head.txt?_rsc=15n2j
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 11 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 10 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 10 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 11 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /experiencia/__next.experiencia.txt?_rsc=1xt0q
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 2 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/d5e14bfb3addd945.js
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /experiencia/__next.experiencia.__PAGE__.txt?_rsc=vk4nv
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /ingenieria/__next._head.txt?_rsc=15n2j
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /ingenieria/__next.ingenieria.txt?_rsc=wv2o7
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /ingenieria/__next.ingenieria.__PAGE__.txt?_rsc=1lpiu
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 4 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 4 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 5 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /mobiliario/__next._head.txt?_rsc=15n2j
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/9c88f93943f261f9.js
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/b95d231ad8b4c26d.js
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /mobiliario/__next.mobiliario.txt?_rsc=8fk77
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /mobiliario/__next.mobiliario.__PAGE__.txt?_rsc=fdr8b
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 4 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 4 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /remodelaciones/__next._head.txt?_rsc=15n2j
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 5 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 7 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /remodelaciones/__next.remodelaciones.txt?_rsc=l8169
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 6 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 2 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /remodelaciones/__next.remodelaciones.__PAGE__.txt?_rsc=rrgds
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /__next._head.txt?_rsc=15n2j
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /__next.__PAGE__.txt?_rsc=mi5qc
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 2 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/be7599680f8058e9.js
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 1 ms
+ HTTP  4/1/2026 4:38:14 AM ::1 GET /_next/static/chunks/29dc77f6e4763042.js
+ HTTP  4/1/2026 4:38:14 AM ::1 Returned 200 in 3 ms
+ HTTP  4/1/2026 4:42:15 AM ::1 HEAD /producto/mobiliario/1
+ HTTP  4/1/2026 4:42:15 AM ::1 Returned 200 in 5 ms
+ HTTP  4/1/2026 4:43:16 AM ::1 GET /producto/mobiliario/1
+ HTTP  4/1/2026 4:43:16 AM ::1 Returned 200 in 1 ms
+ HTTP  4/1/2026 4:49:08 AM ::1 GET /producto/mobiliario/1.html
+ HTTP  4/1/2026 4:49:08 AM ::1 Returned 301 in 1 ms
