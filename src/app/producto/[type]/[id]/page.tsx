@@ -3,10 +3,6 @@ import Link from "next/link";
 import { ArrowLeft, MessageCircle } from "lucide-react";
 import { projects, furniture } from "@/data/products";
 
-interface ProductPageProps {
-  params: { type: string; id: string };
-}
-
 // Ensure static export works with all product paths
 export function generateStaticParams() {
   const paths: { type: string; id: string }[] = [];
@@ -25,8 +21,8 @@ export function generateStaticParams() {
 // Define the client component to handle the carousel in a separate file
 import ProductDetailCarousel from "./ProductDetailCarousel";
 
-export default function ProductDetailPage({ params }: ProductPageProps) {
-  const { type, id } = params;
+export default async function ProductDetailPage({ params }: { params: Promise<{ type: string; id: string }> }) {
+  const { type, id } = await params;
 
   let product = null;
   let backLink = "/";
