@@ -37,6 +37,34 @@ export const projects = [
       "/productos/aulas/AULA (4).jpeg"
     ],
     description: "Mobiliario diseñado específicamente para entornos educativos. Resistente, ergonómico y pensado para fomentar el aprendizaje activo y colaborativo."
+  },
+  {
+    id: 4,
+    title: "Remodelación de Salas",
+    category: "Salas",
+    images: [
+      "/productos/salas/SALA (1).jpeg",
+      "/productos/salas/SALA (2).jpeg",
+      "/productos/salas/SALA (3).jpeg",
+      "/productos/salas/SALA (4).jpeg",
+      "/productos/salas/SALA (5).jpeg",
+      "/productos/salas/SALA (6).jpeg"
+    ],
+    description: "Transformación integral de salas y espacios sociales. Diseño de centros de entretenimiento, muebles a medida y ambientes que combinan elegancia con funcionalidad."
+  },
+  {
+    id: 5,
+    title: "Remodelación de Oficinas",
+    category: "Oficina",
+    images: [
+      "/productos/oficinas/OFICINA (1).jpeg",
+      "/productos/oficinas/OFICINA (3).jpeg",
+      "/productos/oficinas/OFICINA (5).jpeg",
+      "/productos/oficinas/OFICINA (8).jpeg",
+      "/productos/oficinas/OFICINA (10).jpeg",
+      "/productos/oficinas/OFICINA (16).jpeg"
+    ],
+    description: "Espacios de trabajo diseñados para maximizar productividad y bienestar. Mobiliario corporativo, estaciones de trabajo ergonómicas y ambientes profesionales modernos."
   }
 ];
 

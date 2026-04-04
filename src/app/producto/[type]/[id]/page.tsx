@@ -42,15 +42,17 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const defaultMessage = `Hola Fexxa, me gustaría obtener más información sobre el producto o servicio: ${product.title}.`;
   const whatsappUrl = `https://wa.me/573182208936?text=${encodeURIComponent(defaultMessage)}`;
 
+  const backLabel = backLink === "/remodelaciones" ? "Remodelaciones" : "Mobiliario";
+
   return (
-    <main className="min-h-screen pt-32 pb-16 bg-white">
+    <main className="min-h-screen pt-44 md:pt-48 pb-16 bg-white">
       <div className="container mx-auto px-4 md:px-8">
         <Link
           href={backLink}
-          className="inline-flex items-center text-[#C5A059] hover:text-[#1B365D] transition-colors mb-8 font-medium"
+          className="relative z-10 inline-flex items-center text-[#C5A059] hover:text-[#1B365D] transition-colors mb-8 font-medium text-lg"
         >
           <ArrowLeft className="w-5 h-5 mr-2" />
-          Volver a {backLink === "/remodelaciones" ? "Remodelaciones" : "Mobiliario"}
+          Volver a {backLabel}
         </Link>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
