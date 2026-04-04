@@ -70,12 +70,18 @@ export default function ContactoPage() {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="bg-gray-200 h-64 rounded-lg overflow-hidden relative">
-               <div className="absolute inset-0 flex items-center justify-center text-gray-500 font-medium">
-                  Mapa de Google Maps
-               </div>
-               {/* Embed Map if URL provided, otherwise placeholder */}
+            {/* Google Maps */}
+            <div className="rounded-lg overflow-hidden shadow-md">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.0!2d-76.5437!3d3.4616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6640001!2sAv.+6N+%2314N-31%2C+Cali%2C+Valle+del+Cauca!5e0!3m2!1ses!2sco!4v1700000000000"
+                width="100%"
+                height="280"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Ubicación Fexxa - AV 6N # 14N - 31, Cali"
+              />
             </div>
           </div>
 
