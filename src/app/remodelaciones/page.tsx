@@ -30,9 +30,9 @@ export default function RemodelacionesPage() {
         <div className="mb-24">
           <h2 className="text-2xl font-serif font-bold text-[#1B365D] mb-8 text-center">Transformaciones Reales</h2>
           <BeforeAfterSlider
-            beforeImage="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2670&auto=format&fit=crop" // Old construction/empty
-            afterImage="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2301&auto=format&fit=crop" // New office
-            alt="Remodelación Oficina"
+            beforeImage="/productos/cocinas/COCINA WHATSAPP (3).jpeg"
+            afterImage="/productos/cocinas/COCINA (5).jpeg"
+            alt="Remodelación Cocina"
           />
         </div>
 

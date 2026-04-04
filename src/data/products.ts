@@ -4,11 +4,12 @@ export const projects = [
     title: "Cocina Integral Moderna",
     category: "Cocinas",
     images: [
-      "/productos/cocinas/WhatsApp Image 2026-03-30 at 8.40.43 PM.jpeg",
-      "/productos/cocinas/WhatsApp Image 2026-03-30 at 8.40.43 PM (1).jpeg",
-      "/productos/cocinas/WhatsApp Image 2026-03-30 at 8.40.43 PM (2).jpeg",
-      "/productos/cocinas/WhatsApp Image 2026-03-30 at 8.40.43 PM (3).jpeg",
-      "/productos/cocinas/WhatsApp Image 2026-03-30 at 8.40.43 PM (5).jpeg"
+      "/productos/cocinas/COCINA (5).jpeg",
+      "/productos/cocinas/COCINA (6).jpeg",
+      "/productos/cocinas/COCINA (8).jpeg",
+      "/productos/cocinas/COCINA (19).jpeg",
+      "/productos/cocinas/COCINA (11).jpeg",
+      "/productos/cocinas/COCINA (23).jpeg"
     ],
     description: "Diseño ergonómico con acabados de alta calidad. Optimización del espacio para almacenamiento inteligente e integración perfecta con electrodomésticos."
   },
@@ -46,45 +47,40 @@ export const furniture = [
     category: "Camas",
     images: [
       "/productos/camas/CAMAS (1).jpeg",
-      "/productos/camas/CAMAS (2).jpeg",
       "/productos/camas/CAMAS (3).jpeg",
       "/productos/camas/CAMAS (4).jpeg",
-      "/productos/camas/CAMAS (5).jpeg",
       "/productos/camas/CAMAS (6).jpeg",
-      "/productos/camas/CAMAS (7).jpeg",
-      "/productos/camas/CAMAS (8).jpeg",
-      "/productos/camas/CAMAS (9).jpeg",
-      "/productos/camas/CAMAS (10).jpeg"
+      "/productos/camas/CAMAS (18).jpeg",
+      "/productos/camas/CAMAS (20).jpeg"
     ],
     description: "Diseños vanguardistas con estructuras sólidas, cabeceros tapizados e iluminación integrada opcional. Máximo confort y estilo para tu dormitorio."
   },
   {
     id: 2,
-    title: "Bases y Estructuras Modulares",
-    category: "Camas",
+    title: "Closets y Vestidores Modulares",
+    category: "Closets",
     images: [
-      "/productos/camas/CAMAS (11).jpeg",
-      "/productos/camas/CAMAS (12).jpeg",
-      "/productos/camas/CAMAS (13).jpeg",
-      "/productos/camas/CAMAS (14).jpeg",
-      "/productos/camas/CAMAS (15).jpeg",
-      "/productos/camas/CAMAS (16).jpeg"
+      "/productos/closets/CLOSET (1).jpeg",
+      "/productos/closets/CLOSET (3).jpeg",
+      "/productos/closets/CLOSET (5).jpeg",
+      "/productos/closets/CLOSET (6).jpeg",
+      "/productos/closets/CLOSET (7).jpeg",
+      "/productos/closets/CLOSET (8).jpeg"
     ],
-    description: "Sistemas de camas modulares con cajones inferiores y mesas de noche integradas, aprovechando cada espacio de tu habitación con estilo y funcionalidad."
+    description: "Sistemas de almacenamiento personalizados, optimizando cada espacio. Diseños elegantes con distribución inteligente para ropa y accesorios."
   },
   {
     id: 3,
-    title: "Camas Premium y Detalles Arquitectónicos",
-    category: "Camas",
+    title: "Salas y Centros de Entretenimiento",
+    category: "Salas",
     images: [
-      "/productos/camas/CAMAS (17).jpeg",
-      "/productos/camas/CAMAS (18).jpeg",
-      "/productos/camas/CAMAS (19).jpeg",
-      "/productos/camas/CAMAS (20).jpeg",
-      "/productos/camas/CAMAS (21).jpeg",
-      "/productos/camas/CAMAS (22).jpeg",
-      "/productos/camas/CAMAS (23).jpeg"
+      "/productos/salas/SALA (1).jpeg",
+      "/productos/salas/SALA (3).jpeg",
+      "/productos/salas/SALA (4).jpeg",
+      "/productos/salas/SALA (5).jpeg",
+      "/productos/salas/SALA (6).jpeg",
+      "/productos/salas/SALA (8).jpeg"
     ],
-    description: "Acabados de lujo, cabeceros capitoneados con patrones geométricos exclusivos y materiales de la más alta calidad para una experiencia de descanso superior."
+    description: "Mobiliario para salas que combina elegancia y comodidad. Centros de entretenimiento modernos diseñados a la medida de tus espacios."
   }
 ];
