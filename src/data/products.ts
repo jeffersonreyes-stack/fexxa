@@ -9,7 +9,13 @@ export const projects = [
       "/productos/cocinas/COCINA (8).jpeg",
       "/productos/cocinas/COCINA (19).jpeg",
       "/productos/cocinas/COCINA (11).jpeg",
-      "/productos/cocinas/COCINA (23).jpeg"
+      "/productos/cocinas/COCINA (23).jpeg",
+      "/productos/cocinas/COCINA (1).jpeg",
+      "/productos/cocinas/COCINA (3).jpeg",
+      "/productos/cocinas/COCINA (9).jpeg",
+      "/productos/cocinas/COCINA (14).jpeg",
+      "/productos/cocinas/COCINA (16).jpeg",
+      "/productos/cocinas/COCINA (20).jpeg"
     ],
     description: "Diseño ergonómico con acabados de alta calidad. Optimización del espacio para almacenamiento inteligente e integración perfecta con electrodomésticos."
   },
@@ -48,7 +54,9 @@ export const projects = [
       "/productos/salas/SALA (3).jpeg",
       "/productos/salas/SALA (4).jpeg",
       "/productos/salas/SALA (5).jpeg",
-      "/productos/salas/SALA (6).jpeg"
+      "/productos/salas/SALA (6).jpeg",
+      "/productos/salas/SALA (7).jpeg",
+      "/productos/salas/SALA (8).jpeg"
     ],
     description: "Transformación integral de salas y espacios sociales. Diseño de centros de entretenimiento, muebles a medida y ambientes que combinan elegancia con funcionalidad."
   },
@@ -62,7 +70,13 @@ export const projects = [
       "/productos/oficinas/OFICINA (5).jpeg",
       "/productos/oficinas/OFICINA (8).jpeg",
       "/productos/oficinas/OFICINA (10).jpeg",
-      "/productos/oficinas/OFICINA (16).jpeg"
+      "/productos/oficinas/OFICINA (16).jpeg",
+      "/productos/oficinas/OFICINA (2).jpeg",
+      "/productos/oficinas/OFICINA (6).jpeg",
+      "/productos/oficinas/OFICINA (12).jpeg",
+      "/productos/oficinas/OFICINA (18).jpeg",
+      "/productos/oficinas/OFICINA (20).jpeg",
+      "/productos/oficinas/OFICINA (23).jpeg"
     ],
     description: "Espacios de trabajo diseñados para maximizar productividad y bienestar. Mobiliario corporativo, estaciones de trabajo ergonómicas y ambientes profesionales modernos."
   }
@@ -79,7 +93,13 @@ export const furniture = [
       "/productos/camas/CAMAS (4).jpeg",
       "/productos/camas/CAMAS (6).jpeg",
       "/productos/camas/CAMAS (18).jpeg",
-      "/productos/camas/CAMAS (20).jpeg"
+      "/productos/camas/CAMAS (20).jpeg",
+      "/productos/camas/CAMAS (2).jpeg",
+      "/productos/camas/CAMAS (7).jpeg",
+      "/productos/camas/CAMAS (9).jpeg",
+      "/productos/camas/CAMAS (12).jpeg",
+      "/productos/camas/CAMAS (15).jpeg",
+      "/productos/camas/CAMAS (21).jpeg"
     ],
     description: "Diseños vanguardistas con estructuras sólidas, cabeceros tapizados e iluminación integrada opcional. Máximo confort y estilo para tu dormitorio."
   },
@@ -93,7 +113,12 @@ export const furniture = [
       "/productos/closets/CLOSET (5).jpeg",
       "/productos/closets/CLOSET (6).jpeg",
       "/productos/closets/CLOSET (7).jpeg",
-      "/productos/closets/CLOSET (8).jpeg"
+      "/productos/closets/CLOSET (8).jpeg",
+      "/productos/closets/CLOSET (2).jpeg",
+      "/productos/closets/CLOSET (4).jpeg",
+      "/productos/closets/CLOSET (9).jpeg",
+      "/productos/closets/CLOSET (10).jpeg",
+      "/productos/closets/CLOSET (11).jpeg"
     ],
     description: "Sistemas de almacenamiento personalizados, optimizando cada espacio. Diseños elegantes con distribución inteligente para ropa y accesorios."
   },
@@ -107,7 +132,9 @@ export const furniture = [
       "/productos/salas/SALA (4).jpeg",
       "/productos/salas/SALA (5).jpeg",
       "/productos/salas/SALA (6).jpeg",
-      "/productos/salas/SALA (8).jpeg"
+      "/productos/salas/SALA (8).jpeg",
+      "/productos/salas/SALA (2).jpeg",
+      "/productos/salas/SALA (7).jpeg"
     ],
     description: "Mobiliario para salas que combina elegancia y comodidad. Centros de entretenimiento modernos diseñados a la medida de tus espacios."
   }
