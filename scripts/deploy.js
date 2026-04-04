@@ -31,6 +31,9 @@ const awsClientConfig = hasExplicitCredentials
 const s3Client = new S3Client(awsClientConfig);
 const cloudFrontClient = new CloudFrontClient(awsClientConfig);
 
+// Collect all files first, then upload non-HTML, then HTML (so aliases always win)
+const pendingHtmlAliases = [];
+
 async function uploadFile(filePath, key) {
   const fileContent = fs.readFileSync(filePath);
   const contentType = mime.lookup(filePath) || "application/octet-stream";
@@ -46,21 +49,27 @@ async function uploadFile(filePath, key) {
     await s3Client.send(command);
     console.log(`Uploaded: ${key} (${contentType})`);
 
+    // Queue HTML route aliases to be uploaded after all other files
     if (key.endsWith(".html") && key !== "index.html" && key !== "404.html") {
-      const extensionlessKey = key.slice(0, -5);
-      const extensionlessCommand = new PutObjectCommand({
-        Bucket: BUCKET_NAME,
-        Key: extensionlessKey,
-        Body: fileContent,
-        ContentType: "text/html",
-      });
-
-      await s3Client.send(extensionlessCommand);
-      console.log(`Uploaded route alias: ${extensionlessKey} (text/html)`);
+      pendingHtmlAliases.push({ fileContent, key });
     }
   } catch (err) {
     console.error(`Error uploading ${key}:`, err);
     throw err;
+  }
+}
+
+async function uploadHtmlAliases() {
+  for (const { fileContent, key } of pendingHtmlAliases) {
+    const extensionlessKey = key.slice(0, -5);
+    const command = new PutObjectCommand({
+      Bucket: BUCKET_NAME,
+      Key: extensionlessKey,
+      Body: fileContent,
+      ContentType: "text/html",
+    });
+    await s3Client.send(command);
+    console.log(`Uploaded route alias: ${extensionlessKey} (text/html)`);
   }
 }
 
@@ -111,6 +120,10 @@ async function main() {
   try {
     await uploadDirectory(BUILD_DIR);
     console.log("All files uploaded successfully.");
+
+    console.log("Uploading HTML route aliases...");
+    await uploadHtmlAliases();
+    console.log("All route aliases uploaded.");
 
     console.log(`Invalidating CloudFront distribution: ${DISTRIBUTION_ID}`);
     await invalidateCloudFront();
