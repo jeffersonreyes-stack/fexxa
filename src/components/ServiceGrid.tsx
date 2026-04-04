@@ -8,7 +8,7 @@ const services = [
   },
   {
     icon: Droplets,
-    title: "Redes Hidrosanitarias y PTAR",
+    title: "Diseño y construcción de sistemas de agua potable y alcantarillado",
     description: "Diseño y construcción de plantas de tratamiento de aguas residuales, acueductos y sistemas de alcantarillado complejos."
   },
   {

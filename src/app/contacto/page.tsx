@@ -29,7 +29,9 @@ export default function ContactoPage() {
                   <div>
                     <p className="text-sm text-gray-500 font-medium uppercase">Teléfonos</p>
                     <p className="text-gray-800 font-bold text-lg">+57 318 220 8936</p>
-                    <p className="text-gray-600 text-sm">Línea Comercial y WhatsApp</p>
+                    <p className="text-gray-600 text-sm">Ingeniería</p>
+                    <p className="text-gray-800 font-bold text-lg mt-1">+57 316 372 6733</p>
+                    <p className="text-gray-600 text-sm">Remodelaciones - Mobiliario</p>
                   </div>
                 </div>
 

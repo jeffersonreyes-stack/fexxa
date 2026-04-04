@@ -10,6 +10,7 @@ const navLinks = [
   { name: "Mobiliario", href: "/mobiliario" },
   { name: "Ingeniería", href: "/ingenieria" },
   { name: "Experiencia", href: "/experiencia" },
+  { name: "Publicaciones", href: "/publicaciones" },
   { name: "Contacto", href: "/contacto" },
 ];
 

@@ -47,7 +47,10 @@ export default function Footer() {
             </div>
             <div className="flex items-center space-x-3">
               <Phone className="w-5 h-5 text-[#C5A059]" />
-              <span>+57 318 220 8936 (Líneas Comerciales)</span>
+              <div className="flex flex-col">
+                <span>+57 318 220 8936 (Ingeniería)</span>
+                <span>+57 316 372 6733 (Remodelaciones - Mobiliario)</span>
+              </div>
             </div>
             <div className="flex items-center space-x-3">
               <MapPin className="w-5 h-5 text-[#C5A059]" />
