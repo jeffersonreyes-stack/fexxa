@@ -1,4 +1,4 @@
-name: Deploy to CloudFront
+name: Deploy to AWS S3 & CloudFront
 
 on:
   push:
@@ -24,11 +24,31 @@ jobs:
       - name: Build static export
         run: npm run build
 
-      - name: Deploy to S3 and invalidate CloudFront
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME }}
-          AWS_REGION: ${{ secrets.AWS_REGION }}
-          CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-        run: node scripts/deploy.js
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Sync build to S3
+        run: |
+          aws s3 sync out/ s3://${{ secrets.AWS_BUCKET_NAME }} --delete
+
+      - name: Upload clean URL aliases for HTML pages
+        run: |
+          cd out
+          find . -name "*.html" ! -name "index.html" ! -name "404.html" | while read file; do
+            key="${file#./}"
+            alias="${key%.html}"
+            echo "Uploading alias: $alias"
+            aws s3 cp "$file" "s3://${{ secrets.AWS_BUCKET_NAME }}/$alias" \
+              --content-type "text/html" \
+              --metadata-directive REPLACE
+          done
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --paths "/*"
