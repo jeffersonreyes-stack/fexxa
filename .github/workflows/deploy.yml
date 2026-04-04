@@ -38,13 +38,27 @@ jobs:
       - name: Upload clean URL aliases for HTML pages
         run: |
           cd out
-          find . -name "*.html" ! -name "index.html" ! -name "404.html" | while read file; do
+          find . -name "*.html" ! -name "index.html" ! -name "404.html" -type f | while read file; do
             key="${file#./}"
             alias="${key%.html}"
-            echo "Uploading alias: $alias"
-            aws s3 cp "$file" "s3://${{ secrets.AWS_BUCKET_NAME }}/$alias" \
-              --content-type "text/html" \
-              --metadata-directive REPLACE
+            echo "Creating alias: $alias"
+            aws s3api put-object \
+              --bucket "${{ secrets.AWS_BUCKET_NAME }}" \
+              --key "$alias" \
+              --body "$file" \
+              --content-type "text/html"
+          done
+
+      - name: Verify product pages in S3
+        run: |
+          echo "Verifying product page keys exist..."
+          for key in producto/remodelaciones/1 producto/remodelaciones/2 producto/remodelaciones/3 producto/mobiliario/1 producto/mobiliario/2 producto/mobiliario/3; do
+            if aws s3api head-object --bucket "${{ secrets.AWS_BUCKET_NAME }}" --key "$key" 2>/dev/null; then
+              echo "OK: $key"
+            else
+              echo "MISSING: $key"
+              exit 1
+            fi
           done
 
       - name: Invalidate CloudFront cache
