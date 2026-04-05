@@ -5,7 +5,7 @@ import ProductFilter from "@/components/ProductFilter";
 import ProductCard from "@/components/ProductCard";
 import { furniture } from "@/data/products";
 
-const categories = ["Todos", "Camas", "Clósets", "Estanterías", "Mesas"];
+const categories = ["Todos", "Camas", "Closets", "Salas"];
 
 export default function MobiliarioPage() {
   const [activeCategory, setActiveCategory] = useState("Todos");
@@ -15,7 +15,7 @@ export default function MobiliarioPage() {
     : furniture.filter(p => p.category === activeCategory);
 
   return (
-    <div className="pt-24 pb-20 bg-white min-h-screen">
+    <div className="pt-44 pb-20 bg-white min-h-screen">
       <div className="container mx-auto px-6">
         <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#1B365D] text-center mb-6">
           Mobiliario de Autor
