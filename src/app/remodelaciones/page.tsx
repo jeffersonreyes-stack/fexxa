@@ -6,7 +6,7 @@ import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 import ProductCard from "@/components/ProductCard";
 import { projects } from "@/data/products";
 
-const categories = ["Todos", "Cocinas", "Baños", "Salas", "Oficina", "Escolar"];
+const categories = ["Todos", "Cocinas", "Baños", "Salas", "Oficina", "Comercial", "Escolar"];
 
 export default function RemodelacionesPage() {
   const [activeCategory, setActiveCategory] = useState("Todos");

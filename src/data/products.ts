@@ -79,6 +79,26 @@ export const projects = [
       "/productos/oficinas/OFICINA (23).jpeg"
     ],
     description: "Espacios de trabajo diseñados para maximizar productividad y bienestar. Mobiliario corporativo, estaciones de trabajo ergonómicas y ambientes profesionales modernos."
+  },
+  {
+    id: 6,
+    title: "Remodelación Comercial",
+    category: "Comercial",
+    images: [
+      "/productos/comercial/COMERCIAL (1).jpeg",
+      "/productos/comercial/COMERCIAL (3).jpeg",
+      "/productos/comercial/COMERCIAL (5).jpeg",
+      "/productos/comercial/COMERCIAL (8).jpeg",
+      "/productos/comercial/COMERCIAL (10).jpeg",
+      "/productos/comercial/COMERCIAL (14).jpeg",
+      "/productos/comercial/COMERCIAL (18).jpeg",
+      "/productos/comercial/COMERCIAL (22).jpeg",
+      "/productos/comercial/COMERCIAL (28).jpeg",
+      "/productos/comercial/COMERCIAL (33).jpeg",
+      "/productos/comercial/COMERCIAL (38).jpeg",
+      "/productos/comercial/COMERCIAL (42).jpeg"
+    ],
+    description: "Remodelación integral de locales comerciales, tiendas y espacios de atención al público. Diseños funcionales que potencian la imagen de marca y mejoran la experiencia del cliente."
   }
 ];
 
