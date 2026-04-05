@@ -28,12 +28,11 @@ export default function IngenieriaPage() {
               Ideal para procesos licitatorios y evaluación de proveedores.
             </p>
             <a
-              href="/brochure-fexxa.pdf" // Placeholder path
-              download
+              href="/publicaciones"
               className="inline-flex items-center bg-[#C5A059] text-white font-bold py-3 px-8 rounded hover:bg-[#b08d4b] transition-colors"
             >
               <Download className="mr-2 w-5 h-5" />
-              Descargar Brochure PDF
+              Ver Publicaciones
             </a>
           </div>
 
