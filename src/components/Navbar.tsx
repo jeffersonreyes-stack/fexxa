@@ -9,6 +9,7 @@ const navLinks = [
   { name: "Remodelaciones", href: "/remodelaciones" },
   { name: "Mobiliario", href: "/mobiliario" },
   { name: "Ingeniería", href: "/ingenieria" },
+  { name: "Estructura Metálica", href: "/estructura-metalica" },
   { name: "Experiencia", href: "/experiencia" },
   { name: "Publicaciones", href: "/publicaciones" },
   { name: "Contacto", href: "/contacto" },
@@ -51,7 +52,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex flex-wrap justify-end gap-x-6 gap-y-2">
           {navLinks.map((link) => (
             <Link
               key={link.name}

@@ -9,7 +9,7 @@ export default function BentoGrid() {
           Nuestras Líneas de Negocio
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-[600px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 h-[600px]">
           {/* Card 1: Remodelaciones */}
           <Link
             href="/remodelaciones"
@@ -48,6 +48,27 @@ export default function BentoGrid() {
               </p>
               <span className="inline-flex items-center text-[#C5A059] font-medium group-hover:text-white transition-colors">
                 Conocer Servicios <ArrowRight className="ml-2 w-5 h-5" />
+              </span>
+            </div>
+          </Link>
+
+          {/* Card 3: Estructuras Metálicas */}
+          <Link
+            href="/estructura-metalica"
+            className="group relative h-full w-full overflow-hidden rounded-lg shadow-lg cursor-pointer"
+          >
+            <div
+              className="absolute inset-0 bg-[url('https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.42%203AM.jpeg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+            />
+            <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors duration-300" />
+
+            <div className="absolute bottom-0 left-0 p-8 w-full">
+              <h3 className="text-3xl font-serif font-bold text-white mb-2">Estructuras Metálicas</h3>
+              <p className="text-gray-200 mb-4 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                Diseño, fabricación y montaje de cubiertas y estructuras arquitectónicas.
+              </p>
+              <span className="inline-flex items-center text-[#C5A059] font-medium group-hover:text-white transition-colors">
+                Explorar Proyectos <ArrowRight className="ml-2 w-5 h-5" />
               </span>
             </div>
           </Link>
