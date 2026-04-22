@@ -159,3 +159,28 @@ export const furniture = [
     description: "Mobiliario para salas que combina elegancia y comodidad. Centros de entretenimiento modernos diseñados a la medida de tus espacios."
   }
 ];
+
+
+export const estructuraMetalica = [
+  {
+    id: 1,
+    title: "Estructuras Metálicas y Cubiertas",
+    category: "Estructura Metálica",
+    images: [
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.42%203AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.42%20AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.422%20AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.434%20AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.435%20AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.44%20AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.441%20AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.441AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.442%20AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.443AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.446%20AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.46%20AM.jpeg",
+      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-227%20at%209.22.43%20AM.jpeg"
+    ],
+    description: "Diseño, fabricación y montaje de estructuras metálicas arquitectónicas. Soluciones robustas y estéticas para cubiertas, pérgolas, y ampliaciones, integrando materiales de alta resistencia con acabados de primera calidad."
+  }
+];
