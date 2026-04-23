@@ -17,6 +17,13 @@ const catalogs = [
     description: "Resumen tecnico y comercial de proyectos y soluciones integrales.",
     href: "/catalogos/catalogo-fexxa-2.pdf",
     fileName: "catalogo-fexxa-2.pdf"
+  },
+  {
+    id: "brochure-metal-frivalle",
+    title: "Brochure Metal Frivalle",
+    description: "Brochure de Metal Frivalle.",
+    href: "/catalogos/BROCHURE-METAL-FRIVALLE.pdf",
+    fileName: "BROCHURE-METAL-FRIVALLE.pdf"
   }
 ];
 

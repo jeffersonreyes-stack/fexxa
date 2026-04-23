@@ -73,7 +73,7 @@ export default function ContactoPage() {
             {/* Google Maps */}
             <div className="rounded-lg overflow-hidden shadow-md">
               <iframe
-                src="https://maps.google.com/maps?q=Fexxa,+Av+6N+%23+14N-31,+Cali,+Colombia&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=3.4549929,-76.5332463&t=&z=17&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="280"
                 style={{ border: 0 }}
