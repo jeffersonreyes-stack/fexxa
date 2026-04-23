@@ -167,19 +167,19 @@ export const estructuraMetalica = [
     title: "Estructuras Metálicas y Cubiertas",
     category: "Estructura Metálica",
     images: [
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.42%203AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.42%20AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.422%20AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.434%20AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.435%20AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.44%20AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.441%20AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.441AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.442%20AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.443AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.446%20AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.46%20AM.jpeg",
-      "https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-227%20at%209.22.43%20AM.jpeg"
+      "/estructura-metalica/1.jpeg",
+      "/estructura-metalica/2.jpeg",
+      "/estructura-metalica/3.jpeg",
+      "/estructura-metalica/4.jpeg",
+      "/estructura-metalica/5.jpeg",
+      "/estructura-metalica/6.jpeg",
+      "/estructura-metalica/7.jpeg",
+      "/estructura-metalica/8.jpeg",
+      "/estructura-metalica/9.jpeg",
+      "/estructura-metalica/10.jpeg",
+      "/estructura-metalica/11.jpeg",
+      "/estructura-metalica/12.jpeg",
+      "/estructura-metalica/13.jpeg"
     ],
     description: "Diseño, fabricación y montaje de estructuras metálicas arquitectónicas. Soluciones robustas y estéticas para cubiertas, pérgolas, y ampliaciones, integrando materiales de alta resistencia con acabados de primera calidad."
   }

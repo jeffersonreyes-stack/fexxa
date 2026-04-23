@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, MessageCircle } from "lucide-react";
-import { projects, furniture } from "@/data/products";
+import { projects, furniture, estructuraMetalica } from "@/data/products";
 
 // Ensure static export works with all product paths
 export function generateStaticParams() {
@@ -13,6 +13,10 @@ export function generateStaticParams() {
 
   furniture.forEach((item) => {
     paths.push({ type: "mobiliario", id: item.id.toString() });
+  });
+
+  estructuraMetalica.forEach((item) => {
+    paths.push({ type: "estructura-metalica", id: item.id.toString() });
   });
 
   return paths;
@@ -33,6 +37,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   } else if (type === "mobiliario") {
     product = furniture.find((f) => f.id.toString() === id);
     backLink = "/mobiliario";
+  } else if (type === "estructura-metalica") {
+    product = estructuraMetalica.find((e) => e.id.toString() === id);
+    backLink = "/estructura-metalica";
   }
 
   if (!product) {
@@ -42,7 +49,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const defaultMessage = `Hola Fexxa, me gustaría obtener más información sobre el producto o servicio: ${product.title}.`;
   const whatsappUrl = `https://wa.me/573182208936?text=${encodeURIComponent(defaultMessage)}`;
 
-  const backLabel = backLink === "/remodelaciones" ? "Remodelaciones" : "Mobiliario";
+  const backLabel = backLink === "/remodelaciones" ? "Remodelaciones" : backLink === "/mobiliario" ? "Mobiliario" : "Estructura Metálica";
 
   return (
     <main className="min-h-screen pt-44 md:pt-48 pb-16 bg-white">
