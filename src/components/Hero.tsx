@@ -45,6 +45,12 @@ export default function Hero() {
           >
             Servicios de Ingeniería
           </Link>
+          <Link
+            href="/estructura-metalica"
+            className="px-8 py-3 bg-transparent border border-white text-white font-medium rounded hover:bg-white hover:text-[#1B365D] transition duration-300 backdrop-blur-sm"
+          >
+            Estructura Metálica
+          </Link>
         </div>
       </div>
     </section>
