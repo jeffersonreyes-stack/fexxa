@@ -58,7 +58,7 @@ export default function BentoGrid() {
             className="group relative h-full w-full overflow-hidden rounded-lg shadow-lg cursor-pointer"
           >
             <div
-              className="absolute inset-0 bg-[url('https://d3rt540966n3a7.cloudfront.net/imagenes%20estructura%20metalica/WhatsApp%20Image%202026-04-22%20at%209.22.42%203AM.jpeg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+              className="absolute inset-0 bg-[url('/estructura-metalica/1.jpeg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors duration-300" />
 

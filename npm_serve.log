@@ -1,0 +1,81 @@
+ INFO  Accepting connections at http://localhost:39169
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /estructura-metalica
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 287 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/media/2a65768255d6b625-s.p.d19752fb.woff2
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/chunks/cec7c5fb5c38b90c.css
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /estructura-metalica/1.jpeg
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 9 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 8 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/chunks/536461ef04722dfc.js
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 10 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/chunks/806bdb8e4a6a9b95.js
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/chunks/aee6c7720838f8a2.js
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 14 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 10 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/chunks/2378da1e627371ff.js
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 10 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/chunks/turbopack-4038e935156e854c.js
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/chunks/7183068392f4eeb8.js
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 17 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 9 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/chunks/8a07e07106d6caa4.js
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/chunks/a60eaa9af53a2514.js
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 15 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 10 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 8 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 12 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /_next/static/chunks/74a51d38974df592.js
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 5:04:55 AM ::1 GET /logo-fexxa.png
+ HTTP  4/23/2026 5:04:55 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 HEAD /producto/estructura-metalica/1
+ HTTP  4/23/2026 5:04:56 AM ::1 HEAD /contacto
+ HTTP  4/23/2026 5:04:56 AM ::1 HEAD /publicaciones
+ HTTP  4/23/2026 5:04:56 AM ::1 HEAD /experiencia
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 7 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 7 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /producto/estructura-metalica/1/__next._tree.txt?_rsc=1m11n
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /contacto/__next._tree.txt?_rsc=1m11n
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /publicaciones/__next._tree.txt?_rsc=1m11n
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /experiencia/__next._tree.txt?_rsc=1m11n
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 6 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 HEAD /estructura-metalica
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 304 in 1 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 HEAD /ingenieria
+ HTTP  4/23/2026 5:04:56 AM ::1 HEAD /mobiliario
+ HTTP  4/23/2026 5:04:56 AM ::1 HEAD /remodelaciones
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /estructura-metalica/__next._tree.txt?_rsc=1m11n
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /ingenieria/__next._tree.txt?_rsc=1m11n
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /remodelaciones/__next._tree.txt?_rsc=1m11n
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /mobiliario/__next._tree.txt?_rsc=1m11n
+ HTTP  4/23/2026 5:04:56 AM ::1 HEAD /
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /__next._tree.txt?_rsc=1m11n
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /producto/estructura-metalica/1/__next._head.txt?_rsc=y2a7s
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /producto/estructura-metalica/1/__next._index.txt?_rsc=1h0lo
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /producto/estructura-metalica/1/__next.producto.txt?_rsc=ezpw0
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /producto/estructura-metalica/1/__next.producto.$d$type.txt?_rsc=1uuyh
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 11 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 11 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 11 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 9 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /_next/static/chunks/9bb27cb1f3230886.js
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /producto/estructura-metalica/1/__next.producto.$d$type.$d$id.txt?_rsc=vhoki
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 6 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 GET /producto/estructura-metalica/1/__next.producto.$d$type.$d$id.__PAGE__.txt?_rsc=esilt
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 10 ms
+ HTTP  4/23/2026 5:04:56 AM ::1 Returned 200 in 6 ms
